@@ -1,6 +1,7 @@
 <script lang="ts">
 	import bookCover from '$assets/book_cover.png';
 	import phoneCover from '$assets/phone_cover.png';
+	import Button from './Button.svelte';
 </script>
 
 <section class="hero">
@@ -15,11 +16,12 @@
 		<h1>THIS EBOOK WILL</h1>
 		<h1>SAVE YOU MONEY,</h1>
 		<h1 class="mb-m">TIME & NERVES</h1>
-		<p class="light-grey">
+		<p class="light-grey mb-l">
 			In this book, we'll help you plan your perfect relocation to Spain, including everything from
 			accommodations to transportation. We'll also cover essential travel tips, such as budgeting,
 			packing lists, and planning your itinerary.
 		</p>
+		<Button>Purchase e-book for 10$</Button>
 	</div>
 </section>
 
