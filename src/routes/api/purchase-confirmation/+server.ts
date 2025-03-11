@@ -1,8 +1,9 @@
 import { json } from '@sveltejs/kit';
+import type { RequestEvent } from '@sveltejs/kit';
 
-export async function POST({ request }) {
-	const reqBody = await request.json();
-	console.log(reqBody);
+export async function POST({ request }: RequestEvent) {
+    const reqBody = await request.json();
+    console.log(reqBody);
 
-	return json({ success: true });
+    return json({ success: true });
 }
