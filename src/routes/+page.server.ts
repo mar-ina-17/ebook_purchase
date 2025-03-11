@@ -1,5 +1,5 @@
-import { chapters } from '$assets/project1_ebook_landing';
+import { chapters, faqs } from '$assets/project1_ebook_landing';
 
 export function load() {
-	return { chapters };
+	return { chapters, faqs };
 }
