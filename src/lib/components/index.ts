@@ -4,3 +4,4 @@ export { default as ChapterPreview } from './ChapterPreview.svelte';
 export { default as FAQSection } from './FAQSection.svelte';
 export { default as FAQSectionItem } from './FAQSectionItem.svelte';
 export { default as HeroSection } from './HeroSection.svelte';
+export { default as PurchaseSummary } from './PurchaseSummary.svelte';
